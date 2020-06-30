@@ -3,12 +3,14 @@ require_relative '../lib/motivation.rb'
 
 
 describe Motivate do
-  motivate = Motivate.new
-  describe "#make_the_request"
-    let
-  do
+    let(:x)= { Motivate.new }
+    describe "#make_the_request" do
+        it "returns a hash" do 
+           expect(x.make_the_request).to eql(Hash) 
+        end     
+    end
 
-  describe "#select_random"
+  describe "#select_random" do
 
-  do  
+  end 
 end

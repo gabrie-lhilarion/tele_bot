@@ -13,8 +13,8 @@ class Motivate
     def make_the_request
       url = 'https://type.fit/api/quotes'
       uri = URI(url)
-      response = Net::HTTP.get(uri)
-      response = JSON.parse(response)
+      re = Net::HTTP.get(uri)
+      response = JSON.parse(re)
       response
     end
   

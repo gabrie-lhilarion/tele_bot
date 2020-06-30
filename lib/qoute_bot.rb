@@ -11,11 +11,17 @@ class MyBot
       case message.text
       when '/start'
 
-        bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name} , welcome! Use  /start to start the bot,  /stop to end the bot, /motivate to get a diffrent motivational quote everytime you request for it or /joke to get a joke everytime you request for it")
+        bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name} , welcome! Use  /start to start the bot,  /stop to end the bot, /motivate to get a diffrent motivational quote everytime you request for it, /joke to get a joke everytime you request for it or just enter your first name")
 
       when '/stop'
 
         bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}", date: message.date)
+      
+      when message.from.first_name
+        joke = Jokes.new
+        y = joke.initial_joke
+        
+        bot.api.send_message(chat_id: message.chat.id, text: "Lol!, #{message.from.first_name}, #{y} ", date: message.date)
 
       when '/joke'
         joke = Jokes.new
@@ -32,7 +38,7 @@ class MyBot
         values = Motivate.new
         value = values.select_random
         bot.api.send_message(chat_id: message.chat.id, text: "#{value['text']}", date: message.date)
-      else bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name}, you need to use  /start,  /stop , /motivate or /joke")
+      else bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name}, you need to use  /start,  /stop , /motivate, /joke or just enter your First Name")
       end
     end
   end

@@ -14,6 +14,10 @@ class Jokes
 
   end
 
+  def initial_joke
+    return 'your gottee looks good on you, it reminds me of the goat we killed for easter celebration'
+  end
+
 end    
 
 

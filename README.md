@@ -1,26 +1,23 @@
-# Project Name
+# A SIMPLE TELEGRAM BOT WITH RUBY 
 
-> One paragraph statement about the project.
+> This is a simplistic bot build on the Telegram Bot API using Ruby
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby,
+- Rspec,
+- Rubocop,
+- Telegram-Bot-Ruby
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://t.me/igbo_bot)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -39,20 +36,14 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
 
-👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+👤 **Author**
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
+- Github: [@gabrie-lhilarion](https://github.com/gabrie-lhilarion)
+- Twitter: [@gabrielDeman](https://twitter.com/gabrielDeman)
+- Linkedin: [@gabrielhilarion](https://linkedin.com/gabrielhilarion)
+ 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!

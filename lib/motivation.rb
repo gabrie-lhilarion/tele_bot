@@ -21,4 +21,4 @@ class Motivate
     @values = @values.sample
     @values
   end
-  end
+end

@@ -23,16 +23,14 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
- 
+ * You need to have a personal computer
 ### Setup
-
+ * You need to clone the repo by running in your Command line : git clone https://github.com/gabrie-lhilarion/tele_bot.git
 ### Install
-
-### Usage
-
+ * Change into the 'tele_bot' folder using: cd tele_bot
 ### Run tests
-
-### Deployment
+* To test the simple classes I made for this app: run rspec 
+ 
 
 
 

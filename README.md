@@ -29,7 +29,10 @@ To get a local copy up and running follow these simple example steps.
 ### Install
  * Change into the 'tele_bot' folder using: cd tele_bot
 ### Run tests
-* To test the simple classes I made for this app: run rspec 
+ * To test the simple classes I made for this app: run rspec 
+### Run bot
+ * Once in the tele_bot folder run:  ruby bin/main.rb
+ * Then open: https://t.me/igbo_bot in your browser
  
 
 

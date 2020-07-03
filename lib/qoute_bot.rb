@@ -39,7 +39,9 @@ class MyBot
           bot.api.schend_message(at_id: message.chat.id, text: value['text'].to_s, date: message.date)
         else bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name}, use /start,/stop,/motivate,/joke or just enter your First Name")
         end
+
       end
+      puts "..BOT IS RUNNING.."
     end
   end
 end

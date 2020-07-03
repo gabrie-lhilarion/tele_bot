@@ -1,3 +1,4 @@
+# rubocop:disable Metrics/CyclomaticComplexity
 require 'telegram/bot'
 require_relative 'motivation.rb'
 require_relative 'jokes.rb'
@@ -42,3 +43,4 @@ class MyBot
     end
   end
 end
+# rubocop:enable Metrics/CyclomaticComplexity

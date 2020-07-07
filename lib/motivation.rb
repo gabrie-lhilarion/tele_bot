@@ -18,7 +18,6 @@ class Motivate
   end
 
   def select_random
-    @values = @values.sample
-    @values
+    @values.sample
   end
 end

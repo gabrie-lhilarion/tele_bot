@@ -1,4 +1,3 @@
-# rubocop:disable Metrics/CyclomaticComplexity
 require 'telegram_bot'
 require_relative 'motivation.rb'
 require_relative 'jokes.rb'
@@ -35,4 +34,3 @@ bot.get_updates(fail_silently: true) do |message|
     reply.send_with(bot)
   end
 end
-# rubocop:enable Metrics/CyclomaticComplexity

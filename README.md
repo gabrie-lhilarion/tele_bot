@@ -1,58 +1,50 @@
-# Project Name
+# A SIMPLE TELEGRAM BOT WITH RUBY 
 
-> One paragraph statement about the project.
+> This is a simplistic bot build on the Telegram Bot API using Ruby
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby,
+- Rspec,
+- Rubocop,
+- Telegram-Bot-Ruby
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://t.me/igbo_bot)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+ * You need to have a personal computer
 ### Setup
-
+ * You need to clone the repo by running in your Command line : git clone https://github.com/gabrie-lhilarion/tele_bot.git
 ### Install
-
-### Usage
-
+ * Change into the 'tele_bot' folder using: cd tele_bot
 ### Run tests
+ * To test the simple classes I made for this app: run rspec 
+### Run bot
+ * Once in the tele_bot folder run:  ruby bin/main.rb
+ * Then open: https://t.me/igbo_bot in your browser
+ 
 
-### Deployment
 
 
 
-## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
+- Github: [@gabrie-lhilarion](https://github.com/gabrie-lhilarion)
+- Twitter: [@gabrielDeman](https://twitter.com/gabrielDeman)
+- Linkedin: [@gabrielhilarion](https://linkedin.com/gabrielhilarion)
+ 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
